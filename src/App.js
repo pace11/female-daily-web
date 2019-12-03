@@ -1,28 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { StoreProvider } from 'easy-peasy'
 import FemaleDaily from './assets/icons/FemaleDaily'
-import './App.css';
+import store from './redux/store'
+import theme from './common/theme'
+
+const GlobalStyled = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Abel');
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    background-color: ${theme.colors.gray_light};
+  }
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <FemaleDaily />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <StoreProvider store={store}>
+        <React.Fragment>
+          <GlobalStyled />
+          <FemaleDaily />
+        </React.Fragment>
+      </StoreProvider>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
