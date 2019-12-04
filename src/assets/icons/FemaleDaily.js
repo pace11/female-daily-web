@@ -1,7 +1,7 @@
 import React from "react";
 
 const SvgFemaleDaily = props => (
-  <svg width={450.002} height={100} viewBox="0 0 477 106" {...props}>
+  <svg width={150} height={100} viewBox="0 0 477 106" {...props}>
     <image
       x={15}
       y={9}
