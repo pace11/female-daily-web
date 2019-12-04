@@ -26,17 +26,18 @@ const StyledPanel = styled.div`
   flex-direction: row;
 `
 
-const StyledTitle = styled.h3`
-  color: ${theme.colors.black_75};
+const StyledTitle = styled.div`
+  width: auto;
 `
 
 const Title = styled.p`
   font-size: 22px;
+  font-weight: bold;
   color: ${theme.colors.black};
 `
 
 const Subtitle = styled(Title)`
-  margin-top: -15px;
+  margin-top: -20px;
   font-size: 20px;
   color: ${theme.colors.gray};
 `

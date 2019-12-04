@@ -35,6 +35,7 @@ const WrapperItems = styled.div`
 const WrapperCategories = styled(WrapperItems)`
   text-transform: uppercase;
   font-size: 11pt;
+  font-weight: 900;
   :hover {
     color: ${theme.colors.red};
     cursor: pointer;

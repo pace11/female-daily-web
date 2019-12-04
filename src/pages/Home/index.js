@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <Container>
         <Section
-          padding="1rem 1rem"
+          padding="1rem 5rem"
           title="Choice Now"
           subtitle="Hehehe"
           linkTo="/detail"
