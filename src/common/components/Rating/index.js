@@ -29,9 +29,17 @@ function Rating({ rating }) {
   for (let i = 0; i < 5; i += 1) {
     TmpStar.push(
       i < rating ? (
-        <Star key={String(i)} color="secondary" fontSize="small" />
+        <Star
+          key={String(i)}
+          style={{ color: `${theme.colors.red}` }}
+          fontSize="small"
+        />
       ) : (
-        <Star key={String(i)} fontSize="small" />
+        <Star
+          key={String(i)}
+          style={{ color: `${theme.colors.gray}` }}
+          fontSize="small"
+        />
       ),
     )
   }

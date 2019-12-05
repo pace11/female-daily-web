@@ -11,12 +11,13 @@ const StyledSection = styled.section`
 `
 
 const StyledBody = styled.div`
+  display: inline-block;
+  height: 100%;
   ${props =>
     props.center &&
     css`
-      display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
     `}
 `
 
