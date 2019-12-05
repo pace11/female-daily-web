@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { Star } from '@material-ui/icons'
 import theme from '../../theme'
 
@@ -21,10 +21,14 @@ const WrapperNumber = styled.div`
 
 const WrapperRatingSvg = styled.div`
   width: auto;
-  margin-left: 15px;
+  ${props =>
+    props.withNumber &&
+    css`
+      margin-left: 15px;
+    `}
 `
 
-function Rating({ rating }) {
+function Rating({ rating, withNumber }) {
   const TmpStar = []
   for (let i = 0; i < 5; i += 1) {
     TmpStar.push(
@@ -45,14 +49,17 @@ function Rating({ rating }) {
   }
   return (
     <StyledRating>
-      <WrapperNumber>{rating}</WrapperNumber>
-      <WrapperRatingSvg> {TmpStar}</WrapperRatingSvg>
+      {withNumber && <WrapperNumber>{rating}</WrapperNumber>}
+      <WrapperRatingSvg withNumber={withNumber}>
+        {TmpStar}
+      </WrapperRatingSvg>
     </StyledRating>
   )
 }
 
 Rating.defaultProps = {
   rating: 5,
+  withNumber: false,
 }
 
 export default Rating

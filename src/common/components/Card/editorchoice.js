@@ -119,7 +119,7 @@ function EditorChoiceCard({
         </StyledProfileEditor>
         <StyledContent>
           <StyledImage imageUrl={imageUrl} />
-          <Rating rating={rating} />
+          <Rating rating={rating} withNumber />
           <StyledTitle>{name}</StyledTitle>
           <StyledDescription>{description}</StyledDescription>
         </StyledContent>

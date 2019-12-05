@@ -13,6 +13,7 @@ const StyledSection = styled.section`
 const StyledBody = styled.div`
   display: inline-block;
   height: 100%;
+  width: 100%;
   ${props =>
     props.center &&
     css`
