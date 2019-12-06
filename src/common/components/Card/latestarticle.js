@@ -5,7 +5,7 @@ import theme from '../../theme'
 const StyledCard = styled.div`
   display: inline-block;
   padding: 10px;
-  width: 350px;
+  width: 330px;
   height: auto;
 `
 

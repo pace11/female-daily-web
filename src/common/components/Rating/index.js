@@ -24,7 +24,7 @@ const WrapperRatingSvg = styled.div`
   ${props =>
     props.withNumber &&
     css`
-      margin-left: 15px;
+      margin-left: 25px;
     `}
 `
 

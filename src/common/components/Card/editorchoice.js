@@ -6,7 +6,7 @@ import theme from '../../theme'
 const WrapperCard = styled.div`
   display: inline-block;
   position: relative;
-  width: 200px;
+  width: 190px;
   padding: 10px;
   min-height: 400px;
 `

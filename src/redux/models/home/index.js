@@ -10,7 +10,7 @@ const Home = {
   },
 
   fetchAction: action((state, payload) => {
-    state.initialState.items = payload
+    state.initialState.data = payload
     state.initialState.loading = false
   }),
 

@@ -28,19 +28,21 @@ const StyledMenuUser = styled.div`
   justify-content: center;
 `
 
-const StyledMenuProfileUser = styled.div`
+const StyledNameUser = styled.div`
   padding: 0px 20px;
+  margin-top: 10px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  > p {
-    color: ${theme.colors.gray_dark};
-    font-size: 16px;
-  }
-  > small {
-    color: ${theme.colors.gray_light2};
-  }
+  color: ${theme.colors.gray_dark};
+  font-size: 16px;
+`
+
+const StyledProfileUser = styled(StyledNameUser)`
+  margin-top: 0px;
+  color: ${theme.colors.gray_light2};
+  font-size: 12px;
 `
 
 const StyledMenuTop = styled.div`
@@ -122,6 +124,7 @@ function LatestReviewCard({
   desc,
   rating,
   user,
+  profile,
   comment,
 }) {
   return (
@@ -147,9 +150,10 @@ function LatestReviewCard({
       <StyledMenuUser>
         <WrapperImageUser imageUser={imageUser} />
       </StyledMenuUser>
-      <StyledMenuProfileUser>
-        <p>{user}</p>
-      </StyledMenuProfileUser>
+      <StyledNameUser>{user}</StyledNameUser>
+      <StyledProfileUser>
+        {profile && profile.map(item => <p>{item}, </p>)}
+      </StyledProfileUser>
     </StyledCard>
   )
 }
@@ -163,7 +167,7 @@ LatestReviewCard.defaultProps = {
   desc: 'Delight Tony Tint',
   rating: 5,
   user: 'atikaxr',
-  profile: ['Oily', 'Medium Dark', 'Warm', '19-24'],
+  profile: ['Oily', 'Medium Dark', 'Warm', '19 - 24'],
   comment:
     'liptint pertamaku haha dengan harga yang affordable udah bisa membuat korean look di wajahku (ga cocok si haha), cairrr, mudah kering jadi',
 }
