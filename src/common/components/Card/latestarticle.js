@@ -35,6 +35,13 @@ const StyledText = styled.text`
   color: ${props => props.color};
 `
 
+/**
+ *
+ * @param {String} props.imageUrl
+ * @param {String} props.title
+ * @param {String} props.author
+ * @param {String} props.publishedAt
+ */
 function LatestArticleCard({ imageUrl, title, author, publishedAt }) {
   return (
     <StyledCard>

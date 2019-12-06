@@ -28,6 +28,11 @@ const WrapperRatingSvg = styled.div`
     `}
 `
 
+/**
+ *
+ * @param {Number} props.rating
+ * @param {Boolean} props.withNumber
+ */
 function Rating({ rating, withNumber }) {
   const TmpStar = []
   for (let i = 0; i < 5; i += 1) {

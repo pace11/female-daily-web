@@ -2,6 +2,10 @@ import React from 'react'
 import Section from '../../common/components/Section'
 import { EditorChoiceCard } from '../../common/components/Card'
 
+/**
+ *
+ * @param {Array <any>} props.items
+ */
 function SectionEditorChoice({ items }) {
   return (
     <Section

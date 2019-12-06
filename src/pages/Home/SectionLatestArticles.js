@@ -2,6 +2,10 @@ import React from 'react'
 import Section from '../../common/components/Section'
 import { LatestArticleCard } from '../../common/components/Card'
 
+/**
+ *
+ * @param {Array <any>} props.items
+ */
 function SectionLatestArticles({ items }) {
   return (
     <Section

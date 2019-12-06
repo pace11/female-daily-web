@@ -117,6 +117,17 @@ const WrapperImageUser = styled.div`
   background-size: contain;
 `
 
+/**
+ *
+ * @param {String} props.imageUrl
+ * @param {String} props.imageUser
+ * @param {String} props.name
+ * @param {String} props.desc
+ * @param {Number} props.rating
+ * @param {String} props.user
+ * @param {Array <any>} props.profile
+ * @param {String} props.comment
+ */
 function LatestReviewCard({
   imageUrl,
   imageUser,

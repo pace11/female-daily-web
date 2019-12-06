@@ -66,6 +66,17 @@ const WrapperIcon = styled.div`
   margin-left: 80px;
 `
 
+/**
+ *
+ * @param {String} props.padding
+ * @param {String} props.margin
+ * @param {String} props.backgroundColor
+ * @param {String} props.borderRadius
+ * @param {String} props.title
+ * @param {String} props.subtitle
+ * @param {String} props.linkTo
+ * @param {Boolean} props.center
+ */
 function Section({
   padding,
   margin,
@@ -74,8 +85,8 @@ function Section({
   title,
   subtitle,
   linkTo,
-  children,
   center,
+  children,
 }) {
   return (
     <StyledSection

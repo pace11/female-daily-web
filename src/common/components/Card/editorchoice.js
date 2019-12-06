@@ -98,6 +98,16 @@ const StyledDescription = styled.div`
   }
 `
 
+/**
+ *
+ * @param {String} props.imageUrl
+ * @param {String} props.imageEditorUrl
+ * @param {String} props.name
+ * @param {String} props.description
+ * @param {Number} props.rating
+ * @param {String} props.editor
+ * @param {String} props.role
+ */
 function EditorChoiceCard({
   imageUrl,
   imageEditorUrl,

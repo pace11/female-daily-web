@@ -3,6 +3,10 @@ import Section from '../../common/components/Section'
 import HorizontalScroll from '../../common/components/Horizontal'
 import { LatestReviewCard } from '../../common/components/Card'
 
+/**
+ *
+ * @param {Array <any>} props.items
+ */
 function SectionLatestReview({ items }) {
   return (
     <Section
