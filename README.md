@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Feature in website
+- [x] use Styled Components
+- [x] use Easy-Peasy to Redux
+- [x] use Netlify to Hosting Serverless
+
 ## Available Scripts
 
 In the project directory, you can run:
