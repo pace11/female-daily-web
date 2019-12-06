@@ -12,7 +12,7 @@ function SectionLatestArticles({ items }) {
       padding="1rem 6rem"
       title="Latest Articles"
       subtitle="Unravel more beauty"
-      detail="/latestarticles"
+      linkTo="/latestarticles"
       center
     >
       {items &&

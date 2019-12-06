@@ -13,7 +13,7 @@ function SectionLatestReview({ items }) {
       padding="1rem 6rem"
       title="Latest Review"
       subtitle="So you can make better purchase decision"
-      detail="/latestreview"
+      linkTo="/latestreview"
       center
     >
       <HorizontalScroll>
