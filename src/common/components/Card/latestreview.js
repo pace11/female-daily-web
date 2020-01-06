@@ -62,8 +62,11 @@ const StyledImage = styled.div`
   background-image: url(${props => props.imageUrl});
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   width: 65px;
   height: 78px;
+  background-color: ${theme.colors.white};
+  overflow: hidden;
 `
 
 const StyledProductName = styled.div`
