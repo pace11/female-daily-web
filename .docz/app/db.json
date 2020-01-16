@@ -1,0 +1,331 @@
+{
+  "config": {
+    "title": "Female Daily Web",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/macos/Documents/Learn/React/female-daily-web/README.md",
+        "link": "",
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "feature-in-website",
+            "depth": 2,
+            "value": "Feature in website"
+          },
+          {
+            "slug": "available-scripts",
+            "depth": 2,
+            "value": "Available Scripts"
+          },
+          {
+            "slug": "yarn-start",
+            "depth": 3,
+            "value": "yarn start"
+          },
+          {
+            "slug": "yarn-test",
+            "depth": 3,
+            "value": "yarn test"
+          },
+          {
+            "slug": "yarn-build",
+            "depth": 3,
+            "value": "yarn build"
+          },
+          {
+            "slug": "yarn-eject",
+            "depth": 3,
+            "value": "yarn eject"
+          },
+          {
+            "slug": "learn-more",
+            "depth": 2,
+            "value": "Learn More"
+          },
+          {
+            "slug": "code-splitting",
+            "depth": 3,
+            "value": "Code Splitting"
+          },
+          {
+            "slug": "analyzing-the-bundle-size",
+            "depth": 3,
+            "value": "Analyzing the Bundle Size"
+          },
+          {
+            "slug": "making-a-progressive-web-app",
+            "depth": 3,
+            "value": "Making a Progressive Web App"
+          },
+          {
+            "slug": "advanced-configuration",
+            "depth": 3,
+            "value": "Advanced Configuration"
+          },
+          {
+            "slug": "deployment",
+            "depth": 3,
+            "value": "Deployment"
+          },
+          {
+            "slug": "yarn-build-fails-to-minify",
+            "depth": 3,
+            "value": "yarn build  fails to minify"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/common/components/Card/Card.md",
+      "value": {
+        "id": "8ac51aeffa5f7f62c516aa9d41c33bf7",
+        "filepath": "src/common/components/Card/Card.md",
+        "fullpath": "/Users/macos/Documents/Learn/React/female-daily-web/src/common/components/Card/Card.md",
+        "link": "",
+        "slug": "src-common-components-card-card",
+        "route": "/src-common-components-card-card",
+        "name": "Card",
+        "menu": "",
+        "headings": []
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    },
+    {
+      "key": "src/assets/icons/FemaleDaily.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SvgFemaleDaily",
+          "methods": [],
+          "actualName": "SvgFemaleDaily"
+        }
+      ]
+    },
+    {
+      "key": "src/assets/icons/Loading.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SvgLoading",
+          "methods": [],
+          "actualName": "SvgLoading"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/SectionAds.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SectionAds",
+          "methods": [],
+          "actualName": "SectionAds"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/SectionBanner.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SectionBanner",
+          "methods": [],
+          "actualName": "SectionBanner"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/SectionEditorChoice.js",
+      "value": [
+        {
+          "description": "@param {Array <any>} props.items",
+          "displayName": "SectionEditorChoice",
+          "methods": [],
+          "actualName": "SectionEditorChoice"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/SectionLatestArticles.js",
+      "value": [
+        {
+          "description": "@param {Array <any>} props.items",
+          "displayName": "SectionLatestArticles",
+          "methods": [],
+          "actualName": "SectionLatestArticles"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/SectionLatestReview.js",
+      "value": [
+        {
+          "description": "@param {Array <any>} props.items",
+          "displayName": "SectionLatestReview",
+          "methods": [],
+          "actualName": "SectionLatestReview"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/Home/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/common/components/Ads/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Ads",
+          "methods": [],
+          "actualName": "Ads"
+        }
+      ]
+    },
+    {
+      "key": "src/common/components/Header/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header"
+        }
+      ]
+    },
+    {
+      "key": "src/common/components/Horizontal/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Horizontal",
+          "methods": [],
+          "actualName": "Horizontal"
+        }
+      ]
+    },
+    {
+      "key": "src/common/components/Rating/index.js",
+      "value": [
+        {
+          "description": "@param {Number} props.rating\n@param {Boolean} props.withNumber",
+          "displayName": "Rating",
+          "methods": [],
+          "actualName": "Rating",
+          "props": {
+            "rating": {
+              "defaultValue": {
+                "value": "5",
+                "computed": false
+              },
+              "required": false
+            },
+            "withNumber": {
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              },
+              "required": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/common/components/Section/index.js",
+      "value": [
+        {
+          "description": "@param {String} props.padding\n@param {String} props.margin\n@param {String} props.backgroundColor\n@param {String} props.borderRadius\n@param {String} props.title\n@param {String} props.subtitle\n@param {String} props.linkTo\n@param {Boolean} props.center",
+          "displayName": "Section",
+          "methods": [],
+          "actualName": "Section",
+          "props": {
+            "padding": {
+              "defaultValue": {
+                "value": "'0.625rem 0'",
+                "computed": false
+              },
+              "required": false
+            },
+            "margin": {
+              "defaultValue": {
+                "value": "'0px 0px 0px 0px'",
+                "computed": false
+              },
+              "required": false
+            },
+            "backgroundColor": {
+              "defaultValue": {
+                "value": "theme.colors.white",
+                "computed": true
+              },
+              "required": false
+            },
+            "title": {
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              },
+              "required": false
+            },
+            "subtitle": {
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              },
+              "required": false
+            },
+            "linkTo": {
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              },
+              "required": false
+            },
+            "center": {
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              },
+              "required": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
